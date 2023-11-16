@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\CinemaMVC.props" />
-</Project>
