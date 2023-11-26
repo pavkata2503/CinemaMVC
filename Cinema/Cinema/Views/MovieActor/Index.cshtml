@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Cinema.Models.MovieActor>
+
+<h2>Movies List</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Movie Id</th>
+            <th>Movie</th>
+            <th>Actor Id</th>
+            <th>Actor</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movieActor in Model)
+        {
+            <tr>
+                <td>@movieActor.MovieId</td>
+                <td>@movieActor.Movie.Title</td>
+                <td>@movieActor.ActorId</td>
+                <td>@movieActor.Actor.FirstName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Add" asp-controller="MovieActor" class="btn btn-success">Add New Movie-Actor Relations</a>

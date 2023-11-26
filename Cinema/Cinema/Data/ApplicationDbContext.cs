@@ -22,23 +22,24 @@ namespace Cinema.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            // Define relationships between entities
             modelBuilder.Entity<Movie>()
                 .HasOne(m => m.Genre)
                 .WithMany(g => g.Movies)
                 .HasForeignKey(m => m.GenreId);
 
             modelBuilder.Entity<MovieActor>()
-                .HasKey(ma => new {ma.MovieId, ma.ActorId});
+                .HasKey(ma => new { ma.MovieId, ma.ActorId });
 
             modelBuilder.Entity<MovieActor>()
-                .HasOne(ma=>ma.Movie)
-                .WithMany(m=>m.MovieActors)
-                .HasForeignKey(ma=>ma.MovieId);
+                .HasOne(ma => ma.Movie)
+                .WithMany(m => m.MovieActors)
+                .HasForeignKey(ma => ma.MovieId);
 
             modelBuilder.Entity<MovieActor>()
-                .HasOne(t => t.Actor)
+                .HasOne(ma => ma.Actor)
                 .WithMany(a => a.MovieActors)
-                .HasForeignKey(t => t.ActorId);
+                .HasForeignKey(ma => ma.ActorId);
 
             modelBuilder.Entity<Ticket>()
                 .HasOne(t => t.Movie)
@@ -48,7 +49,7 @@ namespace Cinema.Data
             modelBuilder.Entity<Ticket>()
                 .HasOne(t => t.Visitor)
                 .WithMany(v => v.Tickets)
-                .HasForeignKey(ma => ma.VisitorId);
+                .HasForeignKey(t => t.VisitorId);
 
             modelBuilder.Entity<Ticket>()
                 .HasOne(t => t.Place)

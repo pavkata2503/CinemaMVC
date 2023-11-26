@@ -176,6 +176,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Actor/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Actor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Actor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Genre/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Genre/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Genre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -184,8 +208,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/MovieActor/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVBY3RvclxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/MovieActor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVBY3RvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/MovieActor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVBY3RvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Movie/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Movie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Place/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Place/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Place/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Shared/Error.cshtml]
@@ -198,6 +254,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Ticket/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Ticket/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Ticket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Visitor/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRvclxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Visitor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/Visitor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/pavka/OneDrive/Documents/Програвиране C\#/За училище/CinemaMVC/Cinema/Cinema/Views/_ViewImports.cshtml]

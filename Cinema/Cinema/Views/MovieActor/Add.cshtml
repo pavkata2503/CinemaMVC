@@ -1,0 +1,18 @@
+﻿@model Cinema.Models.MovieActor
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create Movie-Actor Relation</h2>
+<form method="post" asp-action="Add" asp-controller="MovieActor">
+    <div class="form-group">
+        <label asp-for="MovieId"></label>
+        <input asp-for="MovieId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ActorId"></label>
+        <input asp-for="ActorId" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary" asp-controller="MovieActor">Create</button>
+</form>
