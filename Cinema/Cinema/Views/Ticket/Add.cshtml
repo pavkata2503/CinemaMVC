@@ -10,19 +10,24 @@
         <input asp-for="Number" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="Movie.Id"></label>
-        <input asp-for="Movie.Id" class="form-control" />
+        <label asp-for="MovieId"></label>
+        <select asp-for="MovieId" asp-items="@(new SelectList(ViewBag.Movies, "Id", "Title"))" class="form-control">
+            <option value="">Selet a Movie</option>
+        </select>@* 
+        <input asp-for="MovieId" class="form-control" /> *@
     </div>
     <div class="form-group">
-        <label asp-for="Visitor"></label>
-        <input asp-for="Visitor" asp-items="@(new SelectList(ViewBag.Visitors,"Name"))"
-               class="form-control" />
+        <label asp-for="VisitorId"></label>
+        <select asp-for="VisitorId" asp-items="@(new SelectList(ViewBag.Visitors, "Id", "Name"))" class="form-control">
+            <option value="">Selet a Visitor</option>
+        </select>
     </div>
     <div class="form-group">
-        <label asp-for="Place"></label>
-        <input asp-for="Place" asp-items=
-        "@(new SelectList(ViewBag.Places,"Number"))"
-               class="form-control" />
+        <label asp-for="PlaceId"></label>
+        <select asp-for="PlaceId" asp-items="@(new SelectList(ViewBag.Places, "Id", "Number"))" class="form-control">
+            <option value="">Selet a Visitor</option>
+        </select>
+        @* <input asp-for="PlaceId" class="form-control" /> *@
     </div>
     <div class="form-group">
         <label asp-for="Price"></label>
