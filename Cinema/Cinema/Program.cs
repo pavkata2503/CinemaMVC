@@ -45,4 +45,9 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
+using(var scope = app.Services.CreateScope())
+{
+    await DbSeeder.SendRolesAndAdminAsync(scope.ServiceProvider);
+}
+
 app.Run();
