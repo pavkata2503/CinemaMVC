@@ -1,10 +1,12 @@
 ﻿using Cinema.Data;
 using Cinema.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Cinema.Controllers
 {
+    [Authorize]
     public class VisitorController : Controller
     {
         private readonly ApplicationDbContext context;
@@ -23,8 +25,9 @@ namespace Cinema.Controllers
             return View(visitors);
         }
 
-        //Add Visitor
-        public IActionResult Add()
+		//Add Visitor
+		[Authorize(Roles = "Admin")]
+		public IActionResult Add()
         {
             ViewBag.Visitors = context.Visitors.ToList();
 

@@ -1,11 +1,13 @@
 ﻿using Cinema.Data;
 using Cinema.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Cinema.Controllers
 {
-    public class ActorController : Controller
+    [Authorize] //[Authorize(Roles="Admin")]
+	public class ActorController : Controller
     {
         private readonly ApplicationDbContext context;
 

@@ -1,10 +1,12 @@
 ﻿using Cinema.Data;
 using Cinema.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Cinema.Controllers
 {
+    [Authorize]
     public class PlaceController : Controller
     {
         private readonly ApplicationDbContext context;
@@ -23,8 +25,9 @@ namespace Cinema.Controllers
             return View(place);
         }
 
-        //Add Place
-        public IActionResult Add()
+		//Add Place
+		[Authorize(Roles = "Admin")]
+		public IActionResult Add()
         {
             ViewBag.Tickets = context.Tickets.ToList();
 
